@@ -1,0 +1,143 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7f6;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header Styles */
+header {
+    background-color: #0066cc;
+    padding: 15px 0;
+    color: white;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* College Search Section */
+.college-search-main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 100px; /* Adjust padding to account for fixed header */
+    width: 100%;
+}
+
+.search-section {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px;
+    font-size: 1em;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.search-bar button:hover {
+    background-color: #005bb5;
+}
+
+.search-results {
+    margin-top: 20px;
+}
+
+.search-result-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.search-result-item h3 {
+    margin: 0;
+    color: #0066cc;
+}
+
+.search-result-item p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.button-group {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.join-chat, .view-profile {
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+}
+
+.join-chat {
+    background-color: #28a745;
+    color: white;
+}
+
+.join-chat:hover {
+    background-color: #218838;
+}
+
+.view-profile {
+    background-color: #007bff;
+    color: white;
+}
+
+.view-profile:hover {
+    background-color: #0056b3;
+}

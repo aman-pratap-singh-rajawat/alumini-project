@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPI Payment Page</title>
+    <link rel="stylesheet" href="qr.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
+</head>
+
+<body>
+  
+    <div class="payment-container">
+        <h1 style="color: black;">UPI Payment</h1>
+        <form id="payment-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="amount">Amount (INR)</label>
+                <input type="number" id="amount" name="amount"  required>
+            </div>
+            <button type="button" onclick="generateQRCode()">Generate UPI QR Code</button>
+        </form>
+        <div id="qr-code-container" class="hidden">
+            <canvas id="qr-code"></canvas>
+            <p>Scan the QR code with your UPI app (Google Pay, Paytm, etc.) to complete the payment.</p>
+        </div>
+        <div id="confirmation-message" class="hidden">
+            <div class="tick-icon-container">
+                <div class="tick-icon">✓</div>
+            </div>
+            <h2>Payment Initiated!</h2>
+            <p>Please confirm the payment in your UPI app.</p>
+            <div>
+                <a href="confirmation.html"> <button>DONE</button></a>
+            </div>
+        </div>
+    </div>
+    
+    <script src="qr.js"></script>
+</body>
+
+</html>

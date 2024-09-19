@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Search</title>
+    <link rel="stylesheet" href="search.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="profile-search.html">Search Profiles</a></li>
+                <li><a href="chat.html">Chat</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="search-main">
+        <section class="search-section">
+            <div class="search-container">
+                <h2>Search Profiles</h2>
+                <div class="search-bar">
+                    <input type="text" id="searchInput" placeholder="Search by name or skill...">
+                    <button id="searchButton" class="search-button">Search</button>
+                </div>
+                <div id="searchResults" class="search-results">
+                    <!-- Search results will be displayed here -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="search.js"></script>
+</body>
+</html>

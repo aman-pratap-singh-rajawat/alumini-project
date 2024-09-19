@@ -1,0 +1,135 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7f6;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header Styles */
+header {
+    background-color: #0066cc;
+    padding: 15px 0;
+    color: white;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* College Profile Section */
+.college-profile-main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.college-info {
+    width: 100%;
+    max-width: 900px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.college-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.college-logo {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ddd;
+}
+
+.college-header-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.college-header-details h1 {
+    margin: 0;
+    color: #0066cc;
+}
+
+.college-header-details p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.donate-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+.donate-button:hover {
+    background-color: #218838;
+}
+
+.college-details {
+    margin-top: 20px;
+}
+
+.college-details h2 {
+    color: #0066cc;
+    margin-top: 20px;
+}
+
+.college-details p, .college-details ul, .college-details li {
+    color: #333;
+    line-height: 1.6;
+}
+
+.college-details ul {
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #0066cc;
+    color: white;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alumni Association</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#register">Register</a></li>
+                <li><a href="#login">Login</a></li>
+                <!-- <li><a href="#directory">Directory</a></li> -->
+                <li><a href="/profile.html">Dashboard</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Welcome to the Alumni Association</h1>
+                <p>Reconnect with fellow alumni, share your journey, and contribute to the legacy of our institution.</p>
+                <a href="#register" class="cta-button">Join Us Today</a>
+            </div>
+        </section>
+
+        <!-- Register Section -->
+        <section id="register" class="form-section">
+            <h2>Register</h2>
+            <form id="registerForm" class="form-card">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit" class="form-button">Register</button>
+            </form>
+        </section>
+
+        <!-- Login Section -->
+        <section id="login" class="form-section">
+            <h2>Login</h2>
+            <form id="loginForm" class="form-card">
+                <label for="emailLogin">Email:</label>
+                <input type="email" id="emailLogin" name="email" required>
+
+                <label for="passwordLogin">Password:</label>
+                <input type="password" id="passwordLogin" name="password" required>
+
+                <button type="submit" class="form-button">Login</button>
+            </form>
+        </section>
+
+      
+
+       
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Government Engineering College Alumni Association</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

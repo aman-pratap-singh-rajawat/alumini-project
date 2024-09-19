@@ -1,0 +1,365 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonts and Colors */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0056b3;
+    color: white;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0, 86, 179, 0.8), rgba(0, 86, 179, 0.8)), url('hero-image.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #ffcc00;
+    color: #0056b3;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e6b800;
+}
+
+/* Form Sections */
+.form-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.form-card {
+    background-color: white;
+    padding: 30px;
+    margin: 0 auto;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-card label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: 600;
+}
+
+.form-card input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-button {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+    background-color: #003d80;
+}
+
+/* Directory Section */
+.directory-section {
+    padding: 50px 20px;
+}
+
+.directory-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+#directoryList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.alum {
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.alum:hover {
+    transform: scale(1.05);
+}
+
+/* Dashboard Section */
+.dashboard-section {
+    padding: 50px 20px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.dashboard-section h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+/* Footer */
+footer {
+    background-color: #0056b3;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Dashboard Specific Styles */
+.welcome-section {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #0056b3;
+    color: white;
+}
+
+.welcome-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.welcome-content p {
+    font-size: 1.2em;
+}
+
+.dashboard-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+}
+
+.dashboard-section h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.dashboard-section p {
+    margin-bottom: 20px;
+}
+
+.dashboard-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.dashboard-link:hover {
+    background-color: #003d80;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Chat Page Specific Styles */
+.chat-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.chat-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.chat-container h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.chat-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#messageInput {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.send-button {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.send-button:hover {
+    background-color: #003d80;
+}
+
+.chat-feed {
+    max-height: 400px;
+    overflow-y: auto;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.chat-message {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    text-align: left;
+    position: relative;
+}
+
+.chat-message strong {
+    display: block;
+    color: #0056b3;
+    margin-bottom: 5px;
+}
+
+.chat-message p {
+    margin: 0;
+}

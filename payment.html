@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Payment</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="college-profile.html">College Profile</a></li>
+                <li><a href="profile.html">My Profile</a></li>
+                <li><a href="chat.html">Chat</a></li>
+                <li><a href="college-search-by-city.html">Search Colleges</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="payment-main">
+        <section class="payment-section">
+            <h1>Donation Payment</h1>
+            <form id="payment-form">
+                <label for="name">Name on Card</label>
+                <input type="text" id="name" name="name" placeholder="John Doe" required>
+
+                <label for="card-number">Card Number</label>
+                <input type="text" id="card-number" name="card-number" placeholder="1234 5678 9012 3456" required>
+
+                <label for="expiry">Expiry Date</label>
+                <input type="text" id="expiry" name="expiry" placeholder="MM/YY" required>
+
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="123" required>
+
+                <label for="amount">Donation Amount</label>
+                <input type="number" id="amount" name="amount" placeholder="$100" required>
+
+                <button type="submit" class="submit-button">Donate Now</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Government Engineering College. All rights reserved.</p>
+    </footer>
+
+    <script src="payment.js"></script>
+</body>
+</html>
